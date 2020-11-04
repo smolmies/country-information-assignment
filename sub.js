@@ -1,4 +1,3 @@
-//https://restcountries.eu/rest/v2/all
 
 async function getAllCountries() {
     try {
@@ -22,7 +21,6 @@ async function getAllCountries() {
             const image = document.createElement('img');
             image.setAttribute('src', flag);
             image.setAttribute('id', 'mini-flag');
-            image.setAttribute('width', '20px');
             countryItem.appendChild(image);
 
             const cName = document.createElement('span');

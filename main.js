@@ -32,6 +32,10 @@ async function fetchCountryData() {
         const countryInfo = result.data[0];
         console.log(countryInfo);
 
+        const intro = document.createElement("h3");
+        intro.textContent = "Here are some facts about the country you searched:";
+        countryContainer.appendChild(intro);
+
         const country = document.createElement('div');
         country.setAttribute('id', 'country');
 
@@ -56,7 +60,8 @@ async function fetchCountryData() {
         languages.textContent = `${createLanguageString(countryInfo.languages)}.`;
         country.appendChild(languages);
 
-        fetchCountryData(input).then = countryContainer.appendChild(country);
+        // fetchCountryData(input).then =
+        countryContainer.appendChild(country);
 
 
     } catch (e){

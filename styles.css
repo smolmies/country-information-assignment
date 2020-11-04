@@ -17,6 +17,7 @@ button {
     align-self: center;
     text-align: left;
     padding: 0 10px 0 10px;
+    margin: 0 0 15px 0;
     max-width: max-content;
     min-width: min-content;
     background-color: #ccedf1;
@@ -36,21 +37,24 @@ button {
      font-size: large;
  }
 
-#map {
-    border: 3px dashed #d14e5b;
-    border-radius: 8px;
-}
+/* ----------------------- Styling for page two/ worldmap ----------------------*/
+
+/*#map {*/
+/*    border: 3px dashed #d14e5b;*/
+/*    border-radius: 8px;*/
+/*}*/
 
 #all-countries{
     column-count: 3;
     max-width: 90%;
     margin: 0 100px;
+    padding: 10px 20px;
     text-align: left;
-    background-color: #ccedf1;
+    background-color: #d9f0f3;
     /*border: 3px solid #a653ba;*/
     border-radius: 8px;
     box-shadow: 6px 6px 6px 0 #51a0a9;
-    text-decoration: underline;
+    text-decoration: underline #a653ba;
 }
 
 ul {
@@ -59,7 +63,8 @@ ul {
 }
 
 #mini-flag {
-    padding: 2px;
+    padding: 2px 5px;
+    width: 25px;
 }
 
 .blue {
