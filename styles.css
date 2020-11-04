@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    display: block;
+    }
+
+button {
+    background-color: green;
+    color: #FFF;
+    }
+
+#countries {
+    display: inline-block;
+    align-self: center;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    max-width: max-content;
+    min-width: min-content;
+    background-color: #ccedf1;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+    box-shadow: 6px 6px 6px 0 #51a0a9;
+    }
+
+ #flag {
+     margin: 15px 0 0 0;
+    height: 60px;
+    width: 90px;
+}
+
+ #error-message{
+     color: #FF0000;
+     font-size: large;
+ }
+
+#map {
+    border: 3px dashed #d14e5b;
+    border-radius: 8px;
+}
+
+#all-countries{
+    column-count: 3;
+    max-width: 90%;
+    margin: 0 100px;
+    text-align: left;
+    background-color: #ccedf1;
+    /*border: 3px solid #a653ba;*/
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px 0 #51a0a9;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#mini-flag {
+    padding: 2px;
+}
+
+.blue {
+    color: #5575c2;
+}
+.purple {
+    color: #a653ba;
+}
+.red {
+    color: #d14e5b;
+}
+.yellow{
+    color: #ffd435;
+}
+.green{
+    color: #4c824b;
+}

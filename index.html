@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Country Information</title>
+</head>
+<body>
+    <h1>Let's search for some country information!</h1>
+    <img height=400px width=400px src="globe-pic.jpg">
+    <br>
+    <a href="worldmap.html">Click here for an 'interactive' world map!</a>
+    <div>
+        <input type="text" id="search-bar" placeholder="Ex. Belgium...">
+        <button type="button" id="search-button">Search</button>
+        <p id="error-message"></p>
+    </div>
+
+    <p>Here are some facts about the country you searched:</p>
+    <div id="countries">
+
+    </div>
+    <script src = "./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
