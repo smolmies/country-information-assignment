@@ -32,12 +32,12 @@ async function fetchCountryData() {
         const countryInfo = result.data[0];
         console.log(countryInfo);
 
-        const intro = document.createElement("h3");
-        intro.textContent = "Here are some facts about the country you searched:";
-        countryContainer.appendChild(intro);
-
         const country = document.createElement('div');
         country.setAttribute('id', 'country');
+
+        const intro = document.createElement("h3");
+        intro.textContent = "Here are some facts about the country you searched:";
+        country.appendChild(intro);
 
         const flag = document.createElement('img');
         flag.setAttribute('src', countryInfo.flag);
@@ -62,7 +62,6 @@ async function fetchCountryData() {
 
         // fetchCountryData(input).then =
         countryContainer.appendChild(country);
-
 
     } catch (e){
         errorMessage.textContent = `${input} doesn't exist. Please try again!`;
